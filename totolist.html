@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO LIST</title>
+
+    <style>
+        body{
+            margin: 0;
+            padding:0;
+        }
+     .container{
+        width: 400px;
+        margin: auto;
+        border: 1px rgba(248, 138, 224, 0.358) solid;
+            background-color: rgb(255, 250, 245);
+
+        padding: 10px 10px 30px 30px;
+        margin-top: 20px;
+     }
+     #title{
+        font-size: xx-large;
+        text-transform: uppercase;
+        color: rgb(249, 81, 145);
+        font-family: sans-serif;
+        font-weight: 600;
+        text-align: center;
+     }
+     .inp-field{
+        width: 300px;
+        height: 30px;
+        align-self: center;
+     }
+     button{
+        height: 30px;
+        width: 50px;
+        background-color: rgb(108, 204, 91);
+        border: 2px solid transparent;
+        color: whitesmoke;
+     }
+     #list{
+        cursor: pointer;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(238, 127, 255);
+     }
+    </style>
+</head>
+<body>
+<div class="container">
+    <p id="title">To do list</p>
+    <input type="text" class="inp-field" id="todotext">
+    <button id="todobutton">Add</button>
+    <div id="list"></div>
+    
+</div>
+<script src="todolist.js"></script>
+</body>
+
+</html>
